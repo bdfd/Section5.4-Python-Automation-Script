@@ -2,7 +2,7 @@
 Date         : 2022-08-24 11:45:11
 Author       : BDFD,bdfd2005@gmail.com
 Github       : https://github.com/bdfd
-LastEditTime : 2022-08-24 12:31:28
+LastEditTime : 2022-08-24 12:43:00
 LastEditors  : BDFD
 Description  : 
 FilePath     : \autoscript\workflow_email.py
@@ -42,7 +42,7 @@ def gmail(email_receiver=email_receiver,gmail_subject=subject,gmail_body=body):
         smtp.sendmail(gmail_sender, email_receiver, em.as_string())
 
 
-def work_mail(email_receiver=email_receiver,workmail_subject=subject,workmail_body=body):
+def workmail(email_receiver=email_receiver,workmail_subject=subject,workmail_body=body):
     #Sender Info
     workmail_sender = 'customerservice@diligentgroup.ca'
     workmail_password = 'RQG@&cLQAHS+'
