@@ -2,7 +2,7 @@
 Date         : 2022-08-24 11:18:38
 Author       : BDFD,bdfd2005@gmail.com
 Github       : https://github.com/bdfd
-LastEditTime : 2022-08-24 12:19:41
+LastEditTime : 2022-08-24 12:39:11
 LastEditors  : BDFD
 Description  : 
 FilePath     : \setup.py
@@ -16,7 +16,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 DESCRIPTION = 'Daily Workflow Python Automation Script'
 PACKAGE_NAME = 'autoscirpt'
 
